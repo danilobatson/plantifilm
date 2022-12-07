@@ -69,7 +69,7 @@ export default function Detail() {
 
   // If the movie to render is not found, render a loading message
   if (!movieToRender) {
-    return <div>Loading...</div>;
+    return <div>Getting Movies. Please wait...</div>;
   }
 
   return (
