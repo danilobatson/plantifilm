@@ -47,7 +47,7 @@ const GenreRows: React.FC<GenreRowsProps> = ({ genre, movies }) => {
                 style={{ width: '15rem' }}
               >
                 <Image
-                  alt='Next.js logo'
+                  alt='Movie Poster Image'
                   src={movie.poster}
                   width={1200}
                   height={400}
