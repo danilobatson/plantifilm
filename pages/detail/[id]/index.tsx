@@ -87,7 +87,7 @@ export default function Detail() {
 
             {/* Render the movie poster */}
             <Image
-              alt='Next.js logo'
+              alt='Movie Poster Image'
               src={detailedMovie.image}
               width={1200}
               height={400}
